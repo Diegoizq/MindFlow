@@ -12,11 +12,7 @@
 .comun {
     margin: -12px 0 0 0;
 }
-/* @media (min-width:900px) {
-    .box {
-        width: 250px !important;
-    }
-} */
+
 .ubi {
     margin: -12px 0 0 0;
     gap: 10px;
@@ -38,3 +34,11 @@
     text-decoration: none;
     color: black;
 }
+@media(max-width:1000px){
+
+    .d-flex{
+        display: none !important;
+    }
+
+}
+
