@@ -133,3 +133,179 @@
   .signup-link a {
     text-decoration: underline;
   }
+
+
+  .barralateral{
+    width: 260px;
+    height: 1200px;
+    border: solid 1px black;
+  }
+
+  .barragrande{
+    width: 1276px;
+    height: auto;
+    border: solid 1px black;
+  }
+
+
+  .chat1{
+    width: 236px;
+    height: 56px;
+    border: solid 1px black;
+  }
+
+
+  .chat2{
+    width: 236px;
+    height: 56px;
+    border: solid 1px black;
+  }
+
+  .chat3{
+    width: 236px;
+    height: 56px;
+    border: solid 1px black;
+  }
+
+  .chat4{
+    width: 236px;
+    height: 56px;
+    border: solid 1px black;
+  }
+
+
+  .chat5{
+    width: 236px;
+    height: 56px;
+    border: solid 1px black;
+  }
+
+  .chat6{
+    width: 236px;
+    height: 56px;
+    border: solid 1px black;
+  }
+
+  .chat7{
+    width: 236px;
+    height: 56px;
+    border: solid 1px black;
+  }
+
+
+
+  .im1{
+    align-content: end;
+  }
+
+
+  .barragrande1{
+    width: 1276px;
+    height: 72px;
+    border: solid 1px black;
+  }
+  .barragrande2{
+    width: 638px;
+    height: auto;
+    border: solid 1px black;
+  }
+  .barragrande3{
+    width: 638px;
+    height: auto;
+    border: solid 1px black;
+  }
+  .btn1{
+    width: 117px;
+    height: 40px;
+    border: solid 1px black;
+
+  }
+
+.btn2{
+    width: 32px;
+    height: 32px;
+    border: solid 1px black;
+    border-radius: 100%;
+
+  }
+
+
+  /* From Uiverse.io by G4b413l */ 
+.card {
+    
+    
+    box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5em;
+    padding-bottom: 3.4em;
+  }
+  
+  .card::after {
+    content: "Add to Cart";
+    padding-top: 1.25em;
+    padding-left: 1.25em;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    background: #00AC7C;
+    color: #fff;
+
+    transition: all 80ms;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0;
+  }
+  
+  .card .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 1.875em;
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .card .price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 0.625em;
+    color: #000;
+  }
+  
+  .card:hover::after {
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  .card:active {
+    transform: scale(0.98);
+  }
+  
+  .card:active::after {
+    content: "Added !";
+    height: 3.125em;
+  }
+  
+  .text {
+    max-width: 55px;
+  }
+  
+  .image {
+    background: rgb(241, 241, 241);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+
+  .container{
+  }
