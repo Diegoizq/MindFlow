@@ -307,5 +307,20 @@
   }
 
 
-  .container{
+  h1::after {
+    content: '';
+    display: block;
+    width: 300px; 
+    height: 4px; 
+    background-color: #4A90E2; 
+    margin: 10px auto; 
+    border-radius: 2px; 
   }
+  
+ 
+  h1:hover {
+    color: #1e9ac0;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+}
